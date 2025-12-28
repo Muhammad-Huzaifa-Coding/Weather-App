@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+}
+
+.weather-card {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.search input {
+    border-radius: 30px 0 0 30px;
+}
+
+.search button {
+    border-radius: 0 30px 30px 0;
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    display: none;
+}
+
+.weather-icon {
+    width: 120px;
+}
+
+.temp {
+    font-size: 3rem;
+}
+
+.city {
+    color: #555;
+}
+
+  
